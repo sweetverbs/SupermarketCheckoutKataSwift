@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		343C67A41AF1518800AB7BF2 /* DiscountRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343C67A31AF1518800AB7BF2 /* DiscountRules.swift */; };
+		343C67A51AF1518800AB7BF2 /* DiscountRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343C67A31AF1518800AB7BF2 /* DiscountRules.swift */; };
+		343C67A81AF151BE00AB7BF2 /* DiscountRulesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343C67A71AF151BE00AB7BF2 /* DiscountRulesTests.swift */; };
+		343C67AA1AF17C2300AB7BF2 /* Checkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343C67A91AF17C2300AB7BF2 /* Checkout.swift */; };
+		343C67AB1AF17C2300AB7BF2 /* Checkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343C67A91AF17C2300AB7BF2 /* Checkout.swift */; };
+		343C67AD1AF17C5200AB7BF2 /* CheckoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343C67AC1AF17C5200AB7BF2 /* CheckoutTests.swift */; };
 		349EB53C1AF03083000767C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EB53B1AF03083000767C8 /* AppDelegate.swift */; };
 		349EB53E1AF03083000767C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EB53D1AF03083000767C8 /* ViewController.swift */; };
 		349EB5411AF03083000767C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 349EB53F1AF03083000767C8 /* Main.storyboard */; };
 		349EB5431AF03083000767C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 349EB5421AF03083000767C8 /* Images.xcassets */; };
 		349EB5461AF03083000767C8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 349EB5441AF03083000767C8 /* LaunchScreen.xib */; };
-		349EB5521AF03083000767C8 /* SupermarketCheckoutKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EB5511AF03083000767C8 /* SupermarketCheckoutKataTests.swift */; };
+		349EB55E1AF03309000767C8 /* ProductRecordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EB55D1AF03309000767C8 /* ProductRecordTests.swift */; };
+		349EB5601AF0334D000767C8 /* ProductRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EB55F1AF0334D000767C8 /* ProductRecord.swift */; };
+		349EB5611AF03359000767C8 /* ProductRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EB55F1AF0334D000767C8 /* ProductRecord.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +34,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		343C67A31AF1518800AB7BF2 /* DiscountRules.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiscountRules.swift; path = Helpers/DiscountRules.swift; sourceTree = "<group>"; };
+		343C67A71AF151BE00AB7BF2 /* DiscountRulesTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiscountRulesTests.swift; path = Helpers/DiscountRulesTests.swift; sourceTree = "<group>"; };
+		343C67A91AF17C2300AB7BF2 /* Checkout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Checkout.swift; path = Models/Checkout.swift; sourceTree = "<group>"; };
+		343C67AC1AF17C5200AB7BF2 /* CheckoutTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CheckoutTests.swift; path = Models/CheckoutTests.swift; sourceTree = "<group>"; };
 		349EB5361AF03083000767C8 /* SupermarketCheckoutKata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SupermarketCheckoutKata.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		349EB53A1AF03083000767C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		349EB53B1AF03083000767C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -35,7 +47,8 @@
 		349EB5451AF03083000767C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		349EB54B1AF03083000767C8 /* SupermarketCheckoutKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SupermarketCheckoutKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		349EB5501AF03083000767C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		349EB5511AF03083000767C8 /* SupermarketCheckoutKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupermarketCheckoutKataTests.swift; sourceTree = "<group>"; };
+		349EB55D1AF03309000767C8 /* ProductRecordTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductRecordTests.swift; path = Models/ProductRecordTests.swift; sourceTree = "<group>"; };
+		349EB55F1AF0334D000767C8 /* ProductRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductRecord.swift; path = Models/ProductRecord.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +69,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		343C67A21AF1516F00AB7BF2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				343C67A31AF1518800AB7BF2 /* DiscountRules.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		343C67A61AF151AA00AB7BF2 /* HelpersTests */ = {
+			isa = PBXGroup;
+			children = (
+				343C67A71AF151BE00AB7BF2 /* DiscountRulesTests.swift */,
+			);
+			name = HelpersTests;
+			sourceTree = "<group>";
+		};
 		349EB52D1AF03083000767C8 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +106,8 @@
 		349EB5381AF03083000767C8 /* SupermarketCheckoutKata */ = {
 			isa = PBXGroup;
 			children = (
+				343C67A21AF1516F00AB7BF2 /* Helpers */,
+				349EB55B1AF030D9000767C8 /* Models */,
 				349EB53B1AF03083000767C8 /* AppDelegate.swift */,
 				349EB53D1AF03083000767C8 /* ViewController.swift */,
 				349EB53F1AF03083000767C8 /* Main.storyboard */,
@@ -98,7 +129,8 @@
 		349EB54E1AF03083000767C8 /* SupermarketCheckoutKataTests */ = {
 			isa = PBXGroup;
 			children = (
-				349EB5511AF03083000767C8 /* SupermarketCheckoutKataTests.swift */,
+				343C67A61AF151AA00AB7BF2 /* HelpersTests */,
+				349EB55C1AF030E1000767C8 /* ModelsTests */,
 				349EB54F1AF03083000767C8 /* Supporting Files */,
 			);
 			path = SupermarketCheckoutKataTests;
@@ -110,6 +142,24 @@
 				349EB5501AF03083000767C8 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		349EB55B1AF030D9000767C8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				349EB55F1AF0334D000767C8 /* ProductRecord.swift */,
+				343C67A91AF17C2300AB7BF2 /* Checkout.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		349EB55C1AF030E1000767C8 /* ModelsTests */ = {
+			isa = PBXGroup;
+			children = (
+				349EB55D1AF03309000767C8 /* ProductRecordTests.swift */,
+				343C67AC1AF17C5200AB7BF2 /* CheckoutTests.swift */,
+			);
+			name = ModelsTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +264,9 @@
 			files = (
 				349EB53E1AF03083000767C8 /* ViewController.swift in Sources */,
 				349EB53C1AF03083000767C8 /* AppDelegate.swift in Sources */,
+				343C67AA1AF17C2300AB7BF2 /* Checkout.swift in Sources */,
+				343C67A41AF1518800AB7BF2 /* DiscountRules.swift in Sources */,
+				349EB5601AF0334D000767C8 /* ProductRecord.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +274,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				349EB5521AF03083000767C8 /* SupermarketCheckoutKataTests.swift in Sources */,
+				349EB5611AF03359000767C8 /* ProductRecord.swift in Sources */,
+				349EB55E1AF03309000767C8 /* ProductRecordTests.swift in Sources */,
+				343C67AB1AF17C2300AB7BF2 /* Checkout.swift in Sources */,
+				343C67A81AF151BE00AB7BF2 /* DiscountRulesTests.swift in Sources */,
+				343C67A51AF1518800AB7BF2 /* DiscountRules.swift in Sources */,
+				343C67AD1AF17C5200AB7BF2 /* CheckoutTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +418,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -371,6 +430,7 @@
 				INFOPLIST_FILE = SupermarketCheckoutKataTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SupermarketCheckoutKata.app/SupermarketCheckoutKata";
 			};
 			name = Debug;
@@ -379,6 +439,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -409,6 +470,7 @@
 				349EB5571AF03083000767C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		349EB5581AF03083000767C8 /* Build configuration list for PBXNativeTarget "SupermarketCheckoutKataTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +479,7 @@
 				349EB55A1AF03083000767C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
