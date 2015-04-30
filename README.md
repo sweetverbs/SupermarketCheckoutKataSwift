@@ -1,7 +1,7 @@
 Supermarket Checkout Kata
 =========================
 
-This is a short retrospective, covering the decisions made in writing the Supermarket Checkout kata and how they affected the final code.
+This README contains a short retrospective, covering the decisions made in writing the Supermarket Checkout kata and how they affected the final code.
 
 Representing Prices
 -------------------
